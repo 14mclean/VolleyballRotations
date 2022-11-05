@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="rotations.css">
+    </head>
+
+    <body>
+        <aside>
+            <div class="param">
+                <h1>Formation</h1>
+
+                <select id="formation-select">
+                    <option value="4-2">4-2 or Two Setter</option>
+                    <option value="6-2">6-2 or Penertrating Setter</option>
+                    <option value="5-1">5-1 or Single Setter</option>
+                </select>
+            </div>
+            
+
+            <div class="param">
+                <h1>Type of Play</h1>
+            
+                <select id="play-type-select">
+                    <option value="serve">Serve</option>
+                    <option value="serve-recieve">Serve Recieve</option>
+                    <option value="attack2">Attack through 2</option>
+                    <option value="attack3">Attack through 3</option>
+                    <option value="attack4">Attack through 4</option>
+                    <option value="defend2">Defend through 2</option>
+                    <option value="defend2">Defend through 3</option>
+                    <option value="defend2">Defend through 4</option>
+                </select>
+            </div>
+            
+
+            <div class="param">
+                <h1>6 Position</h1>
+
+                <label class="option">Short</label>
+
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+
+                <label class="option">Long</label>
+            </div>
+            
+
+            <div class="param">
+                <h1>Setter Position</h1>
+
+                <label class="option">2</label>
+    
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+    
+                <label class="option">3</label>
+            </div>
+
+
+            <div class="param" id="rotate">
+                <button class="rotate-button" id="back" onclick="reverse_rotate()">
+                    <div class="arrow" id="top"></div>
+                    <div class="arrow" id="bottom"></div>
+                </button>
+
+                <h1>Rotate</h1>
+
+                <button class="rotate-button" id="foward" onclick="rotate()">
+                    <div class="arrow" id="top"></div>
+                    <div class="arrow" id="bottom"></div>
+                </button>
+            </div>
+            
+        </aside>
+
+        <div id="court">
+            <div id="floor">
+                <div id="floor-face"></div>
+
+                <div id="net"></div>
+                <div class="post" id="left"></div>
+                <div class="post" id="right"></div>
+
+                <div class="oncourt-line" id="center"></div>
+                <div class="oncourt-line" id="back-a"></div>
+                <div class="oncourt-line" id="back-b"></div>
+
+                <div class="player team1" id="one">OH</div>
+                <div class="player team1" id="two">S</div>
+                <div class="player team1" id="three">M</div>
+                <div class="player team1" id="four">OH</div>
+                <div class="player team1" id="five">S</div>
+                <div class="player team1" id="six">M</div>
+            </div>
+        </div>
+    </body>
+    <script src="rotations.js"></script>
+</html>

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #ccc;
+    overflow-x: hidden;
+}
+
+#court {
+    width: 90vmin;
+    height: 45vmin;
+    perspective: 400px;
+}
+
+#floor {
+    width: 90vmin;
+    height: 45vmin;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-50px);
+}
+
+#floor-face {
+    position: absolute;
+    border: 2px solid green;
+    color: white;
+    width: 90vmin;
+    height: 45vmin;
+    top: 50px;
+    background: wheat;
+    
+}
+
+.oncourt-line {
+    display: inline-block;
+    position: absolute;
+    background-color: green;
+    width: 2px;
+    height: 45vmin;
+    top: 52px;
+}
+
+.oncourt-line#center {
+    left: 50%;
+}
+
+.oncourt-line#back-a {
+    left: 33.3%;
+}
+
+.oncourt-line#back-b {
+    right: 33.3%;
+}
+
+.player {
+    width: 25px;
+    background-color: red;
+    height: 25px;
+    border-radius: 25px;
+}

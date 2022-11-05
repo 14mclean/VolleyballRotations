@@ -1,0 +1,34 @@
+{
+    "serve":
+    {
+        "formation": {
+            "4-2": {
+                "setter2": {
+                    "6short": {},
+                    "6long": {
+                        "setter": [
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            []
+                        ],
+                        "middle": [],
+                        "outside": []
+                    }
+                },
+                "setter3": {}
+            },
+            "6-2": {},
+            "5-1": {}
+        }
+    },
+    "recieve":{},
+    "attack2":{},
+    "attack3":{},
+    "attack4":{},
+    "defend2":{},
+    "defend3":{},
+    "defend4":{}
+}

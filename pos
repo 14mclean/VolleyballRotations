@@ -1,0 +1,13 @@
+3 block:
+    s: [18.4vmin, 42vmin]
+    m: [21vmin, 42vmin]
+    oh: [23.6vmin, 42vmin]
+
+
+2 block:
+    s: [3vmin, 42vmin]
+    m: [6vmin, 42vmin]
+
+4 block: 
+    oh: [39vmin, 42vmin]
+    m: [36.5vmin, 42vmin]
